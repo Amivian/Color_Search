@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+padding: 0 300px;
+margin: 0 auto;
+background: snow;
+}
+
+.container{
+    min-width: 833px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+}
+
+.header{
+margin-top: 20px ;
+}
+
+.color_list{
+width: 100px;
+}
+
+#search_Input {
+  width: 30%;
+    font-size: 16px; 
+    padding: 15px;
+    margin: 15px 0;
+    outline: none;
+    background-color: #fff;
+    height: 44px;
+    vertical-align: top;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+  
+  #list {
+    display: flex;
+    list-style-type: none;
+   
+  }
+  
+  .colors {
+    padding: 20px; 
+    display:flex;
+    text-decoration: none;  
+    color: black;
+  }
+#blue {
+    background-color:  blue ;
+    color: transparent;
+}
+
+#brown {
+    background-color:  brown ;
+    color: transparent ;
+}
+
+#cyan{
+  background-color: cyan;
+  color: transparent;
+}
+
+#green {
+    background-color:  green ;
+    color: transparent;
+}
+
+#orange {
+    background-color:  orange ;
+    color: transparent ;
+}
+
+#purple {
+    background-color:  purple ;
+    color:transparent ;
+}
+
+
+#red {
+   background-color:  red ;
+   color: transparent;
+  }
+
+#indigo{
+  background-color: indigo;
+  color: transparent;
+}
+
+#tan{
+   background-color:  tan;
+   color: transparent;
+}
+
+#yellow {
+    background-color:  yellow ;
+    color: transparent ;
+}
+
